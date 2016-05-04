@@ -1,1 +1,2 @@
-_Oh, an empty article!_ You can get started by **double clicking** this text block and begin editing. You can also click the **Text** button below to add new block elements. Or you can **drag and drop an image** right onto this text!
+This is a roadmap for the future of Fireball.
+My vision is to raise Fireball as a friendly, widely use software for High-Toroughput 
