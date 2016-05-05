@@ -63,6 +63,11 @@ some other tasks that I missed or tasks that should not be on this list.
 
    1. Science is a human product and some of the rules of society also apply to us. We need brand recognition. A consistent image. One task is to have and use a consistent Logo for the code. The basic rules are: Small number of colors, I (Guillermo) create the logo for PyChemia using [Inkscape](https://inkscape.org/en/), in fact I have a set of of similar but not identical set of logos for the code. I use them all the time that PyChemia is presented. Having a logo for Fireball help us to have a familiar image for our code. The image should be a vectorial image in SVG format. Simple, elegant and with transparent background. The logo could include have hidden symbolism, many brand logos do. That increases the power of it.  
 
+## Papers
+
+   1. We need papers that show and promote the code. I suggest to familiarize with write research notebook using Jupyter and writting your papers with Authorea using git to sinchronize your work with your local copy.
+
+
 # Tasks and Assignments
 
 The first task is the following:
