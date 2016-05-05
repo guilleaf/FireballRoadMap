@@ -1,10 +1,10 @@
 # Introduction
 
 This is a roadmap for the future of Fireball.
-My vision is to raise Fireball as a friendly, widely use software for High Throughput Materials analysis.
+My vision is to raise Fireball as a friendly, robust, well-tested/documented, accurate and widely-use software for High Throughput Materials analysis.
 The code must to be fast, robust, well written, accurate and sufficiently well tested.
 We must have a clear idea of the power of the code but also its limitations, we need scientific proofs
-of their accuracy to reproduce the geometry, dynamics, energetics and their derivatives.
+of their accuracy to reproduce the geometry, dynamics, energetics and their derivatives, band structures, and more.
 We will create a code with a brand recognition, papers showing that recognition. 
 This is an ambitious plan to put Fireball as fast and reliable atomistic simulation package on the Tight-Binding 
 level of Theory. The next topics are my current list of tasks that we should address in the forthcoming months.
