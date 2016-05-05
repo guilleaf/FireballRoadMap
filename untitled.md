@@ -1,3 +1,6 @@
+Introduction
+============
+
 This is a roadmap for the future of Fireball.
 My vision is to raise Fireball as a friendly, widely use software for High Throughput Materials analysis.
 The code must to be fast, robust, well written, accurate and sufficiently well tested.
