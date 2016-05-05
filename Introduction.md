@@ -24,11 +24,11 @@ some other tasks that I missed or tasks that should not be on this list.
 
   1. We need test-coverage, right now we start with 0%, achive 10% will be relatively easy, 20% we can get in the first month, 30% is a poor but decent level by the end of the summer 2016. The size of the code and the fragmentation of the drivers will make challenging achieve 50% but that should be our goal by the end of the year.
 
-  1. We need a platform for testing, I (Guillermo) am using Travis-CI for PyChemia. The nature of Fireball, being a Fortran code we should consider something like [Buildbot](http://buildbot.org)
+  1. We need a platform for testing, I (Guillermo) am using Travis-CI for PyChemia. The nature of Fireball, being a Fortran code we should consider something like [Buildbot](http://buildbot.org).
 
   1. Fireball should run and pass test with Intel and gfortran compilers. That is not the case right now for gfortran and that is one important task. I propose as minimum Intel 2011 and Gfortran 4.6
   
-  1. Using Fortran 2003 should be safe (see: [GCC Fortran 2003 status](http://gcc.gnu.org/wiki/Fortran2003Status)) the situation with Fortran 2008 is less mature ([GCC Fortran 2003 status](https://gcc.gnu.org/wiki/Fortran2008Status))
+  1. Using Fortran 2003 should be safe (see: [GCC Fortran 2003 status](http://gcc.gnu.org/wiki/Fortran2003Status)) the situation with Fortran 2008 is less mature ([GCC Fortran 2003 status](https://gcc.gnu.org/wiki/Fortran2008Status)).
 
   1. Reduce as much as we can duplicated code. I use CPD (Copy-Paste Detector) that is part of [PMD](http://pmd.github.io). Use modules wisely eventually start using [Preprocessor Directives](https://en.wikipedia.org/wiki/Directive_(programming))
 
