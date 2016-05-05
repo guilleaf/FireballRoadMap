@@ -13,7 +13,7 @@ I will divide the topics by areas of expertise rather than urgency or priority. 
 some other tasks that I missed or tasks that should not be on this list.
 
 
-# Software Development
+# Software Development (Externals)
 
   1. Fireball will be developed on Github, with documentation on Github Pages. Learn about Git, one nice document was written on Authrea: [A quick introduction to version control with Git and GitHub](https://www.authorea.com/users/5990/articles/17489)
 
@@ -28,12 +28,28 @@ some other tasks that I missed or tasks that should not be on this list.
   1. Fireball should run and pass test with Intel and gfortran compilers. That is not the case right now and that is one important task. I propose as minimum Intel 2011 and Gfortran 4.6
   
   1. Using Fortran 2003 should be safe (see: [GCC Fortran 2003 status](http://gcc.gnu.org/wiki/Fortran2003Status)) the situation with Fortran 2008 is less mature ([GCC Fortran 2003 status](https://gcc.gnu.org/wiki/Fortran2008Status))
+
+  1. Reduce as much as we can duplicated code. I use CPD (Copy-Paste Detector) that is part of [PMD](http://pmd.github.io). Use modules wisely eventually start using [Preprocessor Directives](https://en.wikipedia.org/wiki/Directive_(programming))
+
+
+# Development (Internals)
+
+  1. Transtion to HDF5 fileformat for Fdata and large numerical outputs
+  1. Horsfield 
+  1. Using a more clean input scheme for begin and create, maybe using FoX for parsing XML inputs
   
+
+# Documentation
+
+  1. Several levels of documentation: Instalation, Usage, Scientific and Development. We can use both Github pages or Authorea documents to fullfil the different levels.
 
 # Applications
 
-   1. We need to identify a niche market for Fireball and explote it. Right now I am considering 
-
+   1. Identify a niche market for Fireball and explote it. Right now I am considering Zeolites and MOFs. Structures with large number of atoms to be computed by DFT.
+   
+   1. A large scale comparison between properties computed by Fireball vs DFT. Geometry, energetics and beyond 
+   
+   1. Creation of a well tested set of Fdata for a set of common atoms. New species could be added to the Fdata after some initial good set.
 
 # Branding
 
