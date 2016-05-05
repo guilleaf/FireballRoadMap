@@ -79,14 +79,9 @@ The first task is the following:
 
    1. Now create your own fork of thunder by using the "fork" button on the webpage. Use the `git clone` command to clone your own forked repository
 
-   1. Do some small change, maybe to the "README.md" or some other harmless file. Commit with
-
-`git commit`
-
-     and push to your uwn forked repository with
-  
-`git push`
+   1. Do some small change, maybe to the "README.md" or some other harmless file. Commit with `git commit` and push to your own forked repository with `git push`
 
    1. Now you can enter into the webpage and ask me to merge your modifications into the the main code.
    
+   1. Please select one or several topics that I mention above those that capture your attention, those where you feel motivation to pursue. Do not feel bad for choosing something that you do not know much about it. Motivation always goes faster than knowledge.
    
