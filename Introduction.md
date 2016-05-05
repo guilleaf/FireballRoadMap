@@ -67,11 +67,26 @@ some other tasks that I missed or tasks that should not be on this list.
 
 The first task is the following:
 
-   1. Create accounts on Github and Authorea, send me your usernames so i could add you to the organization and projects.
-    
-   2. Clone the Fireball repository and compiled on your own machine.
+   1. Create accounts on Github and Authorea, send me your usernames so i could add you to the organization and projects
    
+   1. Enter the webpage:
+   
+`https://github.com/fireball-dft/thunder`
+   
+   1. Clone the thunder repository and compile it on your own machine.
+   
+`git clone https://github.com/fireball-dft/thunder.git`
 
+   1. Now create your own fork of thunder by using the "fork" button on the webpage. Use the `git clone` command to clone your own forked repository
 
-   3.  
+   1. Do some small change, maybe to the "README.md" or some other harmless file. Commit with
+
+`git commit`
+
+     and push to your uwn forked repository with
+  
+`git push`
+
+   1. Now you can enter into the webpage and ask me to merge your modifications into the the main code.
+   
    
