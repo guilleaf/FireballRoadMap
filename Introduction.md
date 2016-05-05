@@ -9,11 +9,12 @@ We will create a code with a brand recognition, papers showing that recognition.
 This is an ambitious plan to put Fireball as fast and reliable atomistic simulation package on the Tight-Binding 
 level of Theory. The next topics are my current list of tasks that we should address in the forthcoming months.
 
+# Topics
+
 I will divide the topics by areas of expertise rather than urgency or priority. Feel free to open discussion about
 some other tasks that I missed or tasks that should not be on this list.
 
-
-# Software Development (Externals)
+## Software Development (Externals)
 
   1. Fireball will be developed on Github, with documentation on Github Pages. Learn about Git, one nice document was written on Authrea: [A quick introduction to version control with Git and GitHub](https://www.authorea.com/users/5990/articles/17489)
 
@@ -25,25 +26,32 @@ some other tasks that I missed or tasks that should not be on this list.
 
   1. We need a platform for testing, I (Guillermo) am using Travis-CI for PyChemia. The nature of Fireball, being a Fortran code we should consider something like [Buildbot](http://buildbot.org)
 
-  1. Fireball should run and pass test with Intel and gfortran compilers. That is not the case right now and that is one important task. I propose as minimum Intel 2011 and Gfortran 4.6
+  1. Fireball should run and pass test with Intel and gfortran compilers. That is not the case right now for gfortran and that is one important task. I propose as minimum Intel 2011 and Gfortran 4.6
   
   1. Using Fortran 2003 should be safe (see: [GCC Fortran 2003 status](http://gcc.gnu.org/wiki/Fortran2003Status)) the situation with Fortran 2008 is less mature ([GCC Fortran 2003 status](https://gcc.gnu.org/wiki/Fortran2008Status))
 
   1. Reduce as much as we can duplicated code. I use CPD (Copy-Paste Detector) that is part of [PMD](http://pmd.github.io). Use modules wisely eventually start using [Preprocessor Directives](https://en.wikipedia.org/wiki/Directive_(programming))
 
+  1. Implement a clean, multilevel scheme for paralelism, including accelerators (GPU, XeonPhi), OpenMP and MPI. I think that we can start with [Magma](http://icl.cs.utk.edu/magma/) for diagonalization. There are several levels of parallelization to explore, domains (atoms), concurrency for structures. We can work on the different levels independently.
 
-# Development (Internals)
+## Development (Internals)
 
   1. Transtion to HDF5 fileformat for Fdata and large numerical outputs
+
   1. Horsfield 
+
   1. Using a more clean input scheme for begin and create, maybe using FoX for parsing XML inputs
   
+  1. Using libxc to include more XC funcntionals
+ 
+  1. Adding support for spin polarized calculations 
+  
 
-# Documentation
+## Documentation
 
   1. Several levels of documentation: Instalation, Usage, Scientific and Development. We can use both Github pages or Authorea documents to fullfil the different levels.
 
-# Applications
+## Applications
 
    1. Identify a niche market for Fireball and explote it. Right now I am considering Zeolites and MOFs. Structures with large number of atoms to be computed by DFT.
    
@@ -51,6 +59,19 @@ some other tasks that I missed or tasks that should not be on this list.
    
    1. Creation of a well tested set of Fdata for a set of common atoms. New species could be added to the Fdata after some initial good set.
 
-# Branding
+## Branding
 
    1. Science is a human product and some of the rules of society also apply to us. We need brand recognition. A consistent image. One task is to have and use a consistent Logo for the code. The basic rules are: Small number of colors, I (Guillermo) create the logo for PyChemia using [Inkscape](https://inkscape.org/en/), in fact I have a set of of similar but not identical set of logos for the code. I use them all the time that PyChemia is presented. Having a logo for Fireball help us to have a familiar image for our code. The image should be a vectorial image in SVG format. Simple, elegant and with transparent background. The logo could include have hidden symbolism, many brand logos do. That increases the power of it.  
+
+# Tasks and Assignments
+
+The first task is the following:
+
+   1. Create accounts on Github and Authorea, send me your usernames so i could add you to the organization and projects.
+    
+   2. Clone the Fireball repository and compiled on your own machine.
+   
+
+
+   3.  
+   
