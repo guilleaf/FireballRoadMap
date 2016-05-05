@@ -69,6 +69,11 @@ The first task is the following:
 
    1. Create accounts on Github and Authorea, send me your usernames so i could add you to the organization and projects
    
+   1. Read about Github and Git. Github is a webservice that uses git for version control. They have a nice [10 minute tutorial](https://guides.github.com/activities/hello-world/). Do it, is simple and you will learn the basics in no time.
+
+   1. Learn about git from the command line. This [tutorial](https://try.github.io/levels/1/challenges/1) will guide you with the commands to start. The people behind atlassian.com have a very nice set of [tutorials](https://www.atlassian.com/git/)
+
+
    1. Enter the webpage:
    
 `https://github.com/fireball-dft/thunder`
