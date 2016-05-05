@@ -1,5 +1,4 @@
-Introduction
-============
+## Introduction
 
 This is a roadmap for the future of Fireball.
 My vision is to raise Fireball as a friendly, widely use software for High Throughput Materials analysis.
@@ -14,8 +13,7 @@ I will divide the topics by areas of expertise rather than urgency or priority. 
 some other tasks that I missed or tasks that should not be on this list.
 
 
-Software Development
-====================
+## Software Development
 
   1. Fireball will be developed on Github, with documentation on Github Pages. Learn about Git, one nice document was written on Authrea: [A quick introduction to version control with Git and GitHub](https://www.authorea.com/users/5990/articles/17489)
 
@@ -32,13 +30,11 @@ Software Development
   1. Using Fortran 2003 should be safe (see: [GCC Fortran 2003 status](http://gcc.gnu.org/wiki/Fortran2003Status)) the situation with Fortran 2008 is less mature ([GCC Fortran 2003 status](https://gcc.gnu.org/wiki/Fortran2008Status))
   
 
-Applications
-============
+## Applications
 
    1. We need to identify a niche market for Fireball and explote it. Right now I am considering 
 
 
-Branding
-========
+## Branding
 
    1. Science is a human product and some of the rules of society also apply to us. We need brand recognition. A consistent image. One task is to have and use a consistent Logo for the code. The basic rules are: Small number of colors, I (Guillermo) create the logo for PyChemia using [Inkscape](https://inkscape.org/en/), in fact I have a set of of similar but not identical set of logos for the code. I use them all the time that PyChemia is presented. Having a logo for Fireball help us to have a familiar image for our code. The image should be a vectorial image in SVG format. Simple, elegant and with transparent background. The logo could include have hidden symbolism, many brand logos do. That increases the power of it.  
